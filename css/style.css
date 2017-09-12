@@ -1,0 +1,298 @@
+/* reset */
+
+ol,ul{list-style:none;margin:0px;padding:0px;}
+a{text-decoration:none;}
+.clear{clear:both;}/* clear float */
+
+body{
+	background: url(../images/box-bg.png);
+}
+
+/*=============================
+ * start-header
+ ============================*/
+.Cabecalho{
+    background: url(../images/box1.png) repeat-x;
+}
+.cabecalho-top{
+    padding: 10px 0 30px 0;
+}
+.cabecalho-top ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    overflow:hidden;
+      
+}
+.cabecalho-top ul li p{
+        font-size: 30px;  
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        color: darkcyan;
+}
+.cabecalho-top ul li img{
+    max-width:220px;
+    max-height:170px;
+    width: auto;
+    height: auto;
+    //position: absolute;
+    
+}
+
+#buttonLogin{
+         font-family: 'PT Sans Narrow', sans-serif;
+         color: darkcyan;
+         font-size: 20px;
+         float: right;
+                 
+}
+.menu ul li{
+	display: inline-block;
+	border-left: 1px solid rgba(85, 85, 85, 0.41);
+	float: left;
+        overflow:hidden;
+}
+.menu ul li a{
+	color: #FFF;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	padding: 10px 30px;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.menu li.active> a, .menu li> a:hover {
+	color: #71D6EA;
+	background: #454545;
+}
+.menu{
+	background: url(../images/top-nav-bg.png) repeat-x;
+}
+
+.submenu
+{
+	top:500px;
+    margin: auto;
+    border: 2px solid white;
+	float: left;
+	color:white;
+} 
+
+
+#backgroundImg{
+     position:relative;
+     left: 0;
+     overflow: hidden;
+     z-index: -1;
+     width: 100%;
+}
+.reserve{
+    position:fixed;
+    top:230px;
+    margin:10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: lightgreen;
+    width: 250px;
+    padding: 20px 30px 20px 20px;
+    border-radius: 10%;
+    background-color: #454545;
+    padding-right: 10px;
+}
+.reserve input{
+    display: block;
+}
+
+.reserve h3{
+    font-size: 22px;
+    alignment-adjust: central;
+}
+
+.Localizacao
+{
+	position:absolute;
+    top:250px;
+    margin-left:350px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+	width: 500px;
+    padding: 20px 30px 20px 20px;
+    border-radius: 10%;
+    background-color: grey;
+}
+
+.Contactos
+{
+	position:absolute;
+    top:250px;
+    margin-left:1000px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+    width: 250px;
+    padding: 20px 30px 20px 20px;
+    border-radius: 10%;
+    background-color: grey;
+    padding-right: 5px;
+}
+
+.vsTituloBox
+{
+	position: relative;
+    top:-104px;
+    margin-left:0px;
+	margin-right: 0px;
+    
+	height: 300px;
+    border-radius: 0%;
+    background-color: black;
+	
+	opacity: 0.6;
+	}
+	
+.vsTitulo
+{
+	position: absolute;
+	top: 0px;
+	font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 80px;
+    color: white;
+	text-align: center;
+	z-index: 1;
+	position:relative;
+	
+	
+}
+
+.visitaVirtual
+{
+    position: relative;
+    top:0px;
+    margin-left:350px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+	width: 976px;
+    padding: 20px 30px 20px 20px;
+    border-radius:0%;
+    background-color: grey;
+	
+	margin: 5px; 
+	border: 5px solid #ccc;
+    float: left; 
+}
+.exterior
+{
+    position: relative;
+    top:-15px;
+    margin-left:0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+	width: 955px;
+    padding: 5px 15px 5px 5px;
+    border-radius: 0%;
+    background-color: darkcyan;
+	
+	 
+}
+.quartos
+{
+    position: relative;
+    top:-15px;
+    margin-left:0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+	width: 955px;
+    padding: 5px 15px 5px 5px;
+    border-radius: 0%;
+    background-color: brown;
+	 
+}
+
+.servicos
+{
+	position: relative;
+    top:-15px;
+    margin-left:0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+	width: 955px;
+    padding: 5px 15px 5px 5px;
+    border-radius: 0%;
+    background-color: orange;
+}
+
+.atividades
+{
+	position: relative;
+    top:-15px;
+    margin-left:0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+	width: 955px;
+    padding: 5px 15px 5px 5px;
+    border-radius: 0%;
+    background-color: green;
+}
+.backImg{
+	background: url(../images/slide41.jpg) repeat-x;
+	min-height: 3100px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+	
+
+}
+.backImg1{
+	opacity: 40%;
+}
+.dados{
+    position:absolute;
+    color: #FFF;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    top: 400px;
+    left: 300px;
+}
+.dados li {
+    display:inline-block;
+    font-size: 40pt;
+    text-align: center;
+    margin-left: 40px;
+	text-decoration: white;
+    
+}
+.localCon{
+  
+   position:absolute;
+   color: #FFF;
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: 30px;
+   text-transform: uppercase;
+   top: 240px;
+   left: 300px;
+}
+.localCon li{
+    display:inline-block; 
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.myForm {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    
+    color:Black;
+}
+.error{
+    color:red;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
